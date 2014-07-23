@@ -4,11 +4,11 @@
 		height: 100%;
 	}
 	div#header {
-		height:120px;
+		height:100px;
 		position:fixed;
 	}
     div#logo {
-		 padding-top:30px; 
+		 padding-top:25px; 
 	} 	
 	#bg-image {
 		height: 100%;
