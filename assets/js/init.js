@@ -127,20 +127,20 @@ $(document).ready(function() {
 			success: function(data) {
 
 				if (data == "success")
-					status.html("Thanks for your interest! We will let you know.").slideDown();
+					status.html("Obrigado pelo seu interesse! Nós lhe manteremos informado.").slideDown();
 				
 				else if (data == "subscribed")
-					status.toggleClass('shake').html("This email is already subscribed.").slideDown();
+					status.toggleClass('shake').html("Este email já está inscrito.").slideDown();
 				 
 				else if (data == "invalid")
-					status.toggleClass('shake').html("This email is invalid.").slideDown();
+					status.toggleClass('shake').html("Email invalido.").slideDown();
 				
 				else
-					status.toggleClass('shake').html("Oups, something went wrong!").slideDown();	
+					status.toggleClass('shake').html("Oopa, algo de errado aconteceu!").slideDown();	
 				
 			},
 			error: function () {
-				status.toggleClass('shake').html("Oups, something went wrong!").slideDown();
+				status.toggleClass('shake').html("Oopa, algo de errado aconteceu!").slideDown();
 			}
 		});
 	});
@@ -243,13 +243,13 @@ $(document).ready(function() {
 					status.html("").hide();
 					success.fadeIn();
 				} else if (data == "invalid") {
-					status.toggleClass('shake').html("This email is invalid.").slideDown();
+					status.toggleClass('shake').html("Email inválido.").slideDown();
 				} else {
-					status.toggleClass('shake').html("Oups, something went wrong!").slideDown();	
+					status.toggleClass('shake').html("Oopa, algo de errado aconteceu!").slideDown();	
 				}
 			},
 			error: function () {
-				status.toggleClass('shake').html("Oups, something went wrong!").slideDown();
+				status.toggleClass('shake').html("Oopa, algo de errado aconteceu!").slideDown();
 			}
 		});
 	});
@@ -259,7 +259,7 @@ $(document).ready(function() {
 		modpath: './assets/js/twitter/',	
 		username: _getTwitterUser(), // Your Twitter username
 		count: 1, // Number of tweets to show up
-		loading_text: "Loading tweets...",
+		loading_text: "Carregando tweets...",
 		fetch: 10
 	});
 	$(".tweet_list").fadeIn();
