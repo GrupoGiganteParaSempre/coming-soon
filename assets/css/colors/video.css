@@ -4,6 +4,7 @@ body{
 }
 div#header {
 	background-color: #000000; 
+	opacity: .7;
 }
 #bg-overlay {	
 	background-image: url(../../img/overlay_dark.png);
