@@ -3,7 +3,7 @@
 extract($_POST);
 
 // Set your admin email here 
-$ADMIN_EMAIL = 'email@website.com';
+$ADMIN_EMAIL = 'gustavosf@gmail.com';
 
 // Check if email is valid 
 if ( validEmail($email) ) {

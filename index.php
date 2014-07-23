@@ -5,10 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	
 	<!-- FAVICON -->
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="assets/img/favicon.jpg">
 	
 	<!-- PAGE TITLE -->
-	<title>Grupo Gigante para Sempre</title>
+	<title>Grupo Gigante Para Sempre</title>
 	
 	<!-- STYLESHEETS -->
 	<link rel="stylesheet" href="assets/css/style.css"> <!-- main stylesheet -->
@@ -75,7 +75,7 @@
 				<!-- Widget: Title / Description -->
 				<div class="section intro">
 					<h1 class="title">O site do GPS <span>fica pronto em breve</span></h1>
-					<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue elit, dapibus dapibus porttitor id, lobortis tempor magna. Donec sapien diam, aliquet in ultricies nec. Pellentesque erat ipsum, facilisis quis ullamcorper non, ullamcorper vel velit. Morbi quis tristique nulla. <a href="#">Aliquam varius</a>, nulla in porttitor consectetur, dui sem feugiat ante, quis consectetur mauris lorem id quam.</p> 					
+					<p class="description">Em breve, você poderá encontrar toda a história da remodelação do Gigante da Beira-Rio em um único lugar. O <a href="http://gpsbr.me" target="_blank">Grupo Gigante Para Sempre</a> está preparando um site que irá conter imagens do acompanhamento diário de toda a reforma, vídeos, reportagens e entrevistas.</p> 
 				</div>
 				<!-- Widget: Title / Description end -->
 	
@@ -97,11 +97,11 @@
 							  			  
 				<!-- Widget: Twitter -->
 				<div class="section social">
-					<div class="twitter" id="tweet" data-tweetuser=""></div>
+					<div class="twitter" id="tweet" data-tweetuser="BeirarioGPS"></div>
 					<div class="findus">
 						<a target="_blank" href="http://facebook.com/groups/gpsbr" class="transition social facebook"><span></span></a>
 						<a target="_blank" href="https://twitter.com/BeiraRioGPS" class="transition social twitter"><span></span></a>
-						<a target="_blank" href="http://pinterest.com" class="transition social pinterest"><span></span></a>
+						<!-- <a target="_blank" href="http://pinterest.com" class="transition social pinterest"><span></span></a> -->
 						<div class="clear"></div>
 					</div>					
 				</div>
@@ -124,7 +124,7 @@
 									<span class="close">FECHAR</span>
 								</div>
 								<h3>Contato</h3>
-								<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue elit, dapibus dapibus porttitor id, lobortis tempor magna. Donec sapien diam, aliquet in ultricies nec. Pellentesque erat ipsum, facilisis quis ullamcorper non, ullamcorper vel velit. Morbi quis tristique nulla.</p> 					
+								<p class="description">Caso você tenha alguma sugestão ou queira participar deste movimento, entre em contato conosco! Preenchendo o formulário abaixo, sua mensagem irá diretamente para os moderadores do grupo.</p>
 								<p class="status"></p>
 								<form method="post" class="clearfix">
 									<div class="row">
